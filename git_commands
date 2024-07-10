@@ -17,10 +17,32 @@ git config --list : returns the user mail id, name.
 
 git clone "remote repo link (github/bit bucket)" : used for copy pasting the repo form remote ----> to the device.
 
+git init : used to create the local repo in the folder
 
+git status : return the status of the files with respect to git
+
+ls -a : is used to check whether the git folder is created or not because it is a hidden folder
+
+git add file_name or . (i.e all files) : used to move the files to the git_staging area.
+
+git commit -m "mention the changes here (must)" : it will store the file in the local repo i.e in our device folder.
+
+git rm --cached file_name : used to remove the file from local repo to normal file, in order to sucessfully complete the removing processing we have to commit the change.
+i.e git commit -m "someting here", and for adding back to repo we have to do add, and commit to that file.
+
+workflow:
+
+git init------> git add file_name --------> git commit -m "something" (for moving files to local repo )
+
+git rm --cached file_name-------> git commit -m "something" (for removing the file from local repo)
+
+Note: after modeifying any file we have to do add, commit for moving that file into local repo.
+
+for creating the new remote repo in github or bit bucket we have to follow the step:
+
+git init --> creating remote repo with the help github remote repo link --> push the local repo to remote repo.
 
  
-
 
 
 
