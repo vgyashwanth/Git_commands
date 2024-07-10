@@ -1,0 +1,27 @@
+git config --global user.email "vgyashwanthkumar@gmail.com" :- used to tell the git by 
+which mail id the git is accessing
+
+git config --global user.name "yashwanthvg": use to tell the git by which user name the git is going to accessing.
+
+git config --global --get user.email
+git config --global --get user.name
+
+the above 6,7 commands returns the user mail-id and name.
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+the above 11,12 commands will unset the user id and email
+
+git config --list : returns the user mail id, name.
+
+git clone "remote repo link (github/bit bucket)" : used for copy pasting the repo form remote ----> to the device.
+
+ 
+
+
+
+
+
+
+
