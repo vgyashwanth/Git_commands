@@ -17,6 +17,8 @@ git config --list : returns the user mail id, name.
 
 git clone "remote repo link (github/bit bucket)" : used for copy pasting the repo form remote ----> to the device.
 
+
+
  
 
 
