@@ -81,7 +81,17 @@ regarding that or branch_name content over writes the other content.
 
 git log : returns the history of commits what we have done before.
 
+Undo the content in the files:
+for un_commited files i.e the files are in staging area.
+git checkout --file_name or .
+for commited files.
+git revert commit_hash_number : will undo the content the corrsponding commit of the file and the commit the file automatically.
+git revert -n commit_hash_number : same like above, but file need to commit manually.
+git reset --hard commit_hash_number : will undo the content along with this the commit history.
+
+
 Undo changes: Need more clarity.
+
 
 for files present in the staging area:  back to normal files stage.
 git reset filename.
@@ -96,6 +106,18 @@ git reset commit_hash_number (for undoing multiple stages).
 git reset --hard commit_hash_number (for saving the file content).
 
 fork ---> for copying the repo of one account to the repo to the other account.
+
+git show HEAD : returns the latest commit what we did.
+
+git difftool commit_hash_no_1 commit_hash_no_2 : opens the meld tool and shows the difference between two commits
+
+.gitignore file is used to store the files which are not going to add into the repo.
+we have to make .gitignore file explicitly.
+
+
+
+
+
 
 
 
