@@ -40,7 +40,47 @@ Note: after modeifying any file we have to do add, commit for moving that file i
 
 for creating the new remote repo in github or bit bucket we have to follow the step:
 
-git init --> creating remote repo with the help github remote repo link --> push the local repo to remote repo.
+git init --> creating a connectivity between remote repo and local repo with the help github remote repo link --> push the local repo to remote repo.
+
+for creating the link:
+
+git remote add origin link(github/bitbucket link) : this helps to  create the link between the remote repo and local repo.
+here the name of the repo which is going to store on remote repo is origin which can be anything (user specific).
+
+git remote -v: helps to verify the link is created sucessfully or not.
+
+git branch : return the branch name of the repo we currently working on.
+
+git branch -M new_branch_name : used to change the current working branch name to some other name.
+master == main branch in github
+git push -u repo_name(i.e origin in our case) branch_name(on which branch we need to push): used to push the local repo
+ to the corrsponding branch of remote repo.
+Note : the use of -u ...
+
+
+
+git checkout brach_name_need_to_shift : this helps to move from current working branch to new_branch.
+
+git checkout -b brach_name: creating new branch called branch_name and jumping into it.
+
+what is branch ? : it is just the duplication of the main repo (i.e master repo), the changes in one branch do not effect the 
+other branch until we merge the branches.
+
+git checkout -d branch_name : used to delete the branch by standing on other branch, we cannot delete the branch we currently
+standing on (current working), we have to jump to other branch in order the delete the branch.
+
+git diff branch_name : check the difference between the current working branch and the brach_name.
+
+
+
+
+
+
+
+
+
+
+
 
  
 
