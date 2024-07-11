@@ -114,6 +114,16 @@ git difftool commit_hash_no_1 commit_hash_no_2 : opens the meld tool and shows t
 .gitignore file is used to store the files which are not going to add into the repo.
 we have to make .gitignore file explicitly.
 
+Tag in git : it help us to comment about the state of the code like any important changes or stable versions.
+git tag v1.0 : the name of the tag of the particular branch is v1.0
+git tag -a v1.0 -m "someting regarding the tag" // helps to create annote tags
+git tag : return the information regarding the tag.
+git push origin tag_name : will push the tag to the remote repo.
+git tag -d tag_name : delete the tag.
+git push origin -d tag_name : will remove the tag from the remote repo.
+creating the tag for the past commit: 
+git tag tag_name commit_number : will assign the tag_name to that number.
+
 
 
 
