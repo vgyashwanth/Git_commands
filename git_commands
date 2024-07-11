@@ -124,6 +124,15 @@ git push origin -d tag_name : will remove the tag from the remote repo.
 creating the tag for the past commit: 
 git tag tag_name commit_number : will assign the tag_name to that commit_number.
 
+commands enter in terminal before push operation because authenticstion failed: 
+# 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 -- github token.
+
+git remote set-url origin https: //token_key@github.com/<username>/<repo_name> -- command need to enter before push.
+
+git remote set-url origin https: //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@github.com/vgyashwanth/<repo_name>(based on the repo name).
+
+
+
 
 
 
