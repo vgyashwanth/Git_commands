@@ -71,6 +71,33 @@ standing on (current working), we have to jump to other branch in order the dele
 
 git diff branch_name : check the difference between the current working branch and the brach_name.
 
+git pull repo_name(in our case origin ) branch_name_from_which_we_need_to_pull : used to pull the content form the remote repo
+of specific branch to the current working branch and update the content of local repo, to match with the content of the remote repo
+
+git merge branch_name :  merge the branch_name content to current_working branch (current_working_brach<-------branch_name)
+
+Note: merge conflicts will arise when we have changes in the same line in any file, then we have to take care manually
+regarding that or branch_name content over writes the other content.
+
+git log : returns the history of commits what we have done before.
+
+Undo changes: Need more clarity.
+
+for files present in the staging area:  back to normal files stage.
+git reset filename.
+git reset // for all files.
+
+for undoing the commit: back to normal files stage.
+
+git reset HEAD~1 for (for undoing one commit change).
+
+git reset commit_hash_number (for undoing multiple stages).
+
+git reset --hard commit_hash_number (for saving the file content).
+
+fork ---> for copying the repo of one account to the repo to the other account.
+
+
 
 
 
