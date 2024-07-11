@@ -122,7 +122,7 @@ git push origin tag_name : will push the tag to the remote repo.
 git tag -d tag_name : delete the tag.
 git push origin -d tag_name : will remove the tag from the remote repo.
 creating the tag for the past commit: 
-git tag tag_name commit_number : will assign the tag_name to that number.
+git tag tag_name commit_number : will assign the tag_name to that commit_number.
 
 
 
