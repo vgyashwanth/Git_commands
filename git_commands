@@ -88,7 +88,7 @@ for commited files.
 git revert commit_hash_number : will undo the content the corrsponding commit of the file and the commit the file automatically.
 git revert -n commit_hash_number : same like above, but file need to commit manually.
 git reset --hard commit_hash_number : will undo the content along with this the commit history.
-after doing hard reset the code in your local repo is differnt compare to remote repo so it will allow the push for saftey purpose to avoid overwritting the code on the remote repo
+after doing hard reset the code in your local repo is differnt compare to remote repo so it will not allow the push for saftey purpose to avoid overwritting the code on the remote repo
 so we have to pull the content from remote repo then see the changes and updates things and then push back .
 but we can do force push using "git push --force origin main" (Not recommended).
 
